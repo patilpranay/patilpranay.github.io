@@ -1,1 +1,1 @@
-# patilpranay.com
+# pranaypatil.com
