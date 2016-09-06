@@ -1,1 +1,1 @@
-# patilpranay.github.io
+# patilpranay.com
