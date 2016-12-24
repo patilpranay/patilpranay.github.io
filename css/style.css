@@ -133,15 +133,13 @@ a {
 .topsection .social .twitter {
   display: inline-block;
   color: #55acee;
-  margin-right: 15px;
+  margin-right: 10px;
 }
-
-/* Margin between twitter and github is 15. */
 
 .topsection .social .github {
   display: inline-block;
   color: #666;
-  margin-left: 15px;
+  margin-left: 10px;
   margin-right: 10px;
 }
 
@@ -427,15 +425,13 @@ p {
   .topsection .social .twitter {
     display: inline-block;
     color: #55acee;
-    margin-right: 15px;
+    margin-right: 10px;
   }
-
-  /* Margin between twitter and github is 15. */
 
   .topsection .social .github {
     display: inline-block;
     color: #666;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-right: 10px;
   }
 
