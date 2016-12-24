@@ -133,13 +133,13 @@ a {
 .topsection .social .twitter {
   display: inline-block;
   color: #55acee;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .topsection .social .github {
   display: inline-block;
   color: #666;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-right: 10px;
 }
 
@@ -425,13 +425,13 @@ p {
   .topsection .social .twitter {
     display: inline-block;
     color: #55acee;
-    margin-right: 10px;
+    margin-right: 15px;
   }
 
   .topsection .social .github {
     display: inline-block;
     color: #666;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 10px;
   }
 
