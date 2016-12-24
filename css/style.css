@@ -136,6 +136,8 @@ a {
   margin-right: 15px;
 }
 
+/* Margin between twitter and github is 15. */
+
 .topsection .social .github {
   display: inline-block;
   color: #666;
@@ -427,6 +429,8 @@ p {
     color: #55acee;
     margin-right: 15px;
   }
+
+  /* Margin between twitter and github is 15. */
 
   .topsection .social .github {
     display: inline-block;
