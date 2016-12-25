@@ -40,7 +40,7 @@ a {
   float: right;
 }
 
-.topbar .fa-twitter {
+.topbar .fa-flickr {
   margin-right: 10px;
   color: #55acee;
 }
@@ -130,7 +130,7 @@ a {
   margin-right: 5px;
 }
 
-.topsection .social .twitter {
+.topsection .social .flickr {
   display: inline-block;
   color: #55acee;
   margin-right: 10px;
@@ -336,7 +336,7 @@ p {
     float: right;
   }
 
-  .topbar .fa-twitter {
+  .topbar .fa-flickr {
     margin-right: 10px;
     color: #55acee;
   }
@@ -422,7 +422,7 @@ p {
     margin-right: 5px;
   }
 
-  .topsection .social .twitter {
+  .topsection .social .flickr {
     display: inline-block;
     color: #55acee;
     margin-right: 10px;
