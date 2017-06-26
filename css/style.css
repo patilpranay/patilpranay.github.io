@@ -106,7 +106,7 @@ a {
 
 .topsection .name {
   display: block;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cheltenham_reg', serif;
   font-weight: bold;
   font-size: 21px;
   vertical-align: top;
@@ -114,7 +114,7 @@ a {
 }
 
 .topsection .description {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Caslon', serif;
   font-size: 18px;
   margin: 30px auto 50px auto;
   width: 480px;
@@ -406,7 +406,7 @@ p {
 
   .topsection .name {
     display: block;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cheltenham_reg', serif;
     font-weight: bold;
     font-size: 21px;
     vertical-align: top;
@@ -414,7 +414,7 @@ p {
   }
 
   .topsection .description {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Caslon', serif;
     font-size: 18px;
     margin: 30px auto 50px auto;
     width: 90%;
