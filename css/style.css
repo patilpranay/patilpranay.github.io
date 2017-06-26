@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
+@font-face { font-family: Cheltenham_ital; src: url('../fonts/cheltenham.ttf'); }
+@font-face { font-family: Cheltenham_reg; src: url('../fonts/Cheltenham_reg.ttf'); }
+@font-face { font-family: Caslon; src: url('../fonts/caslon.ttf'); }
 @font-face { font-family: Imperial; src: url('../fonts/Imperial.ttf'); }
 
 body {
@@ -173,7 +176,7 @@ a {
 }
 
 h1 {
-  font-family: 'cheltenham', serif;
+  font-family: 'Cheltenham_ital', serif;
   font-size: 36px;
   color: #4A4A4A;
   margin-bottom: 3px;
@@ -185,14 +188,14 @@ h1:hover {
 }
 
 h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cheltenham_ital', serif;
   font-size: 36px;
   color: #4A4A4A;
   margin-bottom: 3px;
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cheltenham_ital', serif;
   font-size: 21px;
   font-weight: 900;
   color: rgba(0,0,0,0.8);
@@ -206,7 +209,7 @@ h3 {
 }
 
 p {
-  font-family: Georgia, serif;
+  font-family: Caslon, serif;
   font-size: 21px;
   line-height: 1.8;
   color: rgba(0,0,0,0.8);
@@ -238,6 +241,7 @@ p {
 
 .date {
   font-family: 'Imperial', serif;
+  font-weight: lighter;
   font-size: 18px;
   text-transform: uppercase;
   color: #CCCCCC;
@@ -466,21 +470,21 @@ p {
   }
 
   h1 {
-    font-family: 'cheltenham', serif;
+    font-family: 'Cheltenham_ital', serif;
     font-size: 36px;
     color: #4A4A4A;
     margin-bottom: 3px;
   }
 
   h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cheltenham_ital', serif;
     font-size: 36px;
     color: #4A4A4A;
     margin-bottom: 3px;
   }
 
   h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cheltenham_ital', serif;
     font-size: 21px;
     font-weight: 900;
     color: rgba(0,0,0,0.8);
@@ -496,7 +500,7 @@ p {
   }
 
   p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Caslon', serif;
     font-size: 21px;
     line-height: 1.8;
     color: rgba(0,0,0,0.8);
@@ -528,6 +532,7 @@ p {
 
   .date {
     font-family: 'Imperial', serif;
+    font-weight: lighter;
     font-size: 18px;
     text-transform: uppercase;
     color: #CCCCCC;
