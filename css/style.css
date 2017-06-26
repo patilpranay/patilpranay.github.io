@@ -1,5 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-@import url('https://www.fontify.me/wf/45bbcbc9b1f9d1b5aa460d6641d14481');
+
+@font-face {
+  font-family: cheltenham;
+  src: url('fonts/cheltenham.ttf')
+       format('truetype');
+}
 
 body {
   margin: 0;
@@ -172,7 +177,7 @@ a {
 }
 
 h1 {
-  font-family: 'font41504', serif;
+  font-family: 'cheltenham', serif;
   font-size: 36px;
   color: #4A4A4A;
   margin-bottom: 3px;
@@ -466,7 +471,7 @@ p {
   }
 
   h1 {
-    font-family: 'font41504', serif;
+    font-family: 'cheltenham', serif;
     font-size: 36px;
     color: #4A4A4A;
     margin-bottom: 3px;
