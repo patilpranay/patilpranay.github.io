@@ -238,7 +238,6 @@ p {
 
 .date {
   font-family: 'Imperial', serif;
-  font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
   color: #CCCCCC;
@@ -529,7 +528,6 @@ p {
 
   .date {
     font-family: 'Imperial', serif;
-    font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
     color: #CCCCCC;
