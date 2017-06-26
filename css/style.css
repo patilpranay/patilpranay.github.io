@@ -1,10 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
-@font-face {
-  font-family: cheltenham;
-  src: url('fonts/cheltenham.ttf')
-       format('truetype');
-}
+@font-face { font-family: Imperial; src: url('../fonts/Imperial.ttf'); }
 
 body {
   margin: 0;
@@ -241,7 +237,7 @@ p {
 }
 
 .date {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Imperial', serif;
   font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
@@ -532,12 +528,11 @@ p {
   }
 
   .date {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Imperial', serif;
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
     color: #CCCCCC;
-
   }
 
   .btn-read {
