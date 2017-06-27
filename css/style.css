@@ -3,7 +3,7 @@
 @font-face { font-family: Cheltenham_ital; src: url('../fonts/cheltenham.ttf'); }
 @font-face { font-family: Cheltenham_reg; src: url('../fonts/Cheltenham_reg.ttf'); }
 @font-face { font-family: Caslon; src: url('../fonts/caslon.ttf'); }
-@font-face { font-family: Imperial; src: url('../fonts/Imperial.ttf'); }
+@font-face { font-family: Bookman; src: url('../fonts/Bookman.ttf'); }
 
 body {
   margin: 0;
@@ -108,7 +108,7 @@ a {
   display: block;
   font-family: 'Cheltenham_reg', serif;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 24px;
   vertical-align: top;
   margin: 20px 0 20px 10px;
 }
@@ -240,7 +240,7 @@ p {
 }
 
 .date {
-  font-family: 'Imperial', serif;
+  font-family: 'Bookman', serif;
   font-weight: lighter;
   font-size: 18px;
   text-transform: uppercase;
@@ -408,7 +408,7 @@ p {
     display: block;
     font-family: 'Cheltenham_reg', serif;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 24px;
     vertical-align: top;
     margin: 20px 0 20px 10px;
   }
@@ -531,7 +531,7 @@ p {
   }
 
   .date {
-    font-family: 'Imperial', serif;
+    font-family: 'Bookman', serif;
     font-weight: lighter;
     font-size: 18px;
     text-transform: uppercase;
