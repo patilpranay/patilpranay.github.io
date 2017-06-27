@@ -243,7 +243,7 @@ p {
   font-family: 'Bookman', serif;
   font-weight: lighter;
   font-size: 18px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #CCCCCC;
 }
 
@@ -534,7 +534,7 @@ p {
     font-family: 'Bookman', serif;
     font-weight: lighter;
     font-size: 18px;
-    text-transform: uppercase;
+    text-transform: none;
     color: #CCCCCC;
   }
 
