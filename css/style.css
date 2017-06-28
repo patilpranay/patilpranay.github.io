@@ -195,7 +195,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Caslon', serif;
+  font-family: 'Cheltenham_reg', serif;
   font-size: 24px;
   font-weight: 900;
   color: rgba(0,0,0,0.8);
@@ -228,7 +228,7 @@ p {
 .post h6 {
   /*caption*/
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Caslon', serif;
   color: #808080;
   font-size: 18px;
   font-style: italic;
@@ -484,7 +484,7 @@ p {
   }
 
   h3 {
-    font-family: 'Caslon', serif;
+    font-family: 'Cheltenham_reg', serif;
     font-size: 24px;
     font-weight: 900;
     color: rgba(0,0,0,0.8);
@@ -519,7 +519,7 @@ p {
   .post h6 {
     /*caption*/
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Caslon', serif;
     color: #808080;
     font-size: 18px;
     font-style: italic;

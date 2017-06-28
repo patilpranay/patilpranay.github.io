@@ -6,6 +6,12 @@
     <link rel="icon" type="image/png" href="../../../img/favicon.png" sizes="128x128"/>
     <title>Pranay Patil</title>
     <link rel=stylesheet type="text/css" href="../../../css/style.css">
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
   </head>
 
   <body>
@@ -26,13 +32,28 @@
       <div class="post">
         <h2>What is Machine Learning?</h2>
         <span class="date">June 28, 2017</span>
-        <p>If you've kept up to date with any of the latest announcements from tech giants like Google and Amazon or read about technological advancements made in industries such as finance and health, you have no doubt heard the term "machine learning" tossed around. But while it is easy enough to see that machine learning has drastically improved lots of services and products, how has it actually done that? In other words, what is machine learning and how does it work? If you're not sure about the answers to these two questions, don't worry because this is exactly what we'll be discussing in this and several future posts! Let's begin with an introduction to machine learning.</p>
-        <p>There are lots of problems, such as recognizing handwritten digits or identifying spam, for which it is too difficult to write an explicit computer program that always outputs the correct answer. This is primaril due to the variability of the data, as there are no specific rules that dictate whether the following digit is a zero or a six or if an email should be tagged as spam or not.</p>
+        <p>If you've kept up to date with any of the latest announcements from tech giants like Google and Amazon or read about technological advancements made in industries such as finance and health, you have no doubt heard the term "machine learning" tossed around. But while it is easy enough to see that machine learning has drastically improved lots of services and products, how has it actually done that? In other words, what is machine learning and how does it work? If you're not sure about the answers to either of these two questions, don't worry because this is exactly what we'll be discussing in this and several future posts! Let's begin with an introduction to machine learning.</p>
+        <p>There are lots of problems, such as recognizing handwritten digits or identifying spam, for which it is too difficult to write an explicit computer program that always outputs the correct answer. This is primarily due to the variability of the data, as there are no specific rules that dictate whether the following digit is a zero or a six or if an email should be tagged as spam or not.</p>
         <img src="../../../img/vague_digit.png" alt="Vague Digit" style="max-width:40%;height:auto;">
+        <h6>A handwritten digit that could be a six or a zero</h6>
         <p>For this reason, we build models that learn by looking at lots and lots of examples and their correct answers. Then, when the model comes across a particular example that it has not seen before, it uses what it has learned to output a prediction for this new example.</p>
         <p>The field of machine learning is concerned with the study of these types of models and what strategies and algorithms to use to build the best model, i.e., one that minimizes the number of incorrect predictions for unseen examples.</p>
         <h3>Formulation</h3>
-        <p>We can formally state the problem described above as follows.</p>
+        <p>We can formally state the problem described above as follows. Given $\{x_i,y_i\}$ for $i=1\dots n$, we want to build a model $f$ such that we minimize $$\sum_{i=1}^{n}\|y_i-f(x_i)\|^{2}.$$ Let us break down this statement and understand what it is saying. $\{x_i,y_i\}$ indicates a set of <b>training data</b> of size $n$, where the $x_i$ are the examples and the $y_i$ are the labels (or correct answers) of these examples.</p>
+        <p>$f$ represents a model (which can be thought of as a function) that, given an input $x_i$, outputs a prediction $f(x_i)$.</p>
+        <p>Since we don't know the correct answers to any unseen data, the only way we can judge how well our model works is to compare the predictions output by the model for the training examples against their actual labels. We want the difference between the label and the predicted answer to be as small as possible, i.e., we want to minimize $y_i-f(x_i)$. We take the squared $l_2$ norm of this value to discard the effect of negatives, resulting in $\|y_i-f(x_i)\|^2$. This as known as the <b>error</b> of the model for example $x_i$.</p>
+        <p>Since we want to measure how well the model predicts against all of the training examples, we calculate the error of the model for all the examples and sum up the results, giving us $$\sum_{i=1}^{n}\|y_i-f(x_i)\|^{2}.$$ This is known as the <b>squared error loss</b> and is one way to measure the quality of a model.</p>
+        <h3>Features</h3>
+        <p>Now that we know what exactly a machine learning model is and how to quantify its effectiveness, let us take a closer look at the input to such a model, i.e., the training data.</p>
+        <p>As described above, the training data consists of training examples (the $x_i$) and their corresponding labels (the $y_i$). However, while it is simple to numerically represent a label, with $y=7$ indicating a handwritten '7', it is not as obvious how to do so for the actual training example itself. How do you numerically represent an image of a handwritten digit?</p>
+        <p>To do so, we must extract <b>features</b>, measurable properties of an object, from the image. In this case, a potential choice of features would be the values of each of the pixels of the image.</p>
+        <p>Once the features are chosen, they are encoded as a $d$-dimensional vector where $d$ is the number of features. In the case of a 28x28 image, $d$ would be the number of pixels, or 784. Thus, the $x_i$ that we have up until this point used to represent the training examples are actually all $d$-dimensional vectors where the components of $x_i$ are the values of the features of example $i$.</p>
+        <h3>Feature Extraction</h3>
+        <p>One of the biggest challenges to building an effective machine learning model is choosing which features of the training examples to use to train (or build) the model. Just feeding raw data to the model usually does not work and so the performance of many models is dependent on how insightful the programmer is in choosing the features.</p>
+        <p>Certain machine learning algorithms like <b>neural networks</b> (another buzz word you may have heard tossed around at technology conferences) are popular because they are able to learn by themselves which features to focus on, thus moving the problem of feature extraction from the programmer to the computer.</p>
+        <h3>Conclusion</h3>
+        <p>Machine learning is a term used to describe models that memorize, or learn, important features from numerous examples and then use that knowledge to try to accurately classify new data that these models have not seen before. In this post, we developed a mathematical formulation for a machine learning model, including how input data is provided to the model and how the effectiveness of a model is calculated.</p>
+        <p>At this point, however, you may find yourself asking, "I understand <i>what</i> a model does, but <i>how</i> does it do it?" This is a perfectly valid question and we'll answer it in the next post when we take a look at one of the most popular machine learning models used in industry today: the neural network.</p>
       </div>
     </div>
 
