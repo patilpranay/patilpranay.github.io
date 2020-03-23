@@ -4,6 +4,7 @@
 @font-face { font-family: Cheltenham_reg; src: url('../fonts/Cheltenham_reg.ttf'); }
 @font-face { font-family: Caslon; src: url('../fonts/caslon.ttf'); }
 @font-face { font-family: Bookman; src: url('../fonts/Bookman.ttf'); }
+@font-face { font-family: adobe-garamond-pro; src: url('../fonts/AGaramondPro-Regular.otf'); }
 
 body {
   margin: 0;
@@ -209,7 +210,7 @@ h3 {
 }
 
 p {
-  font-family: 'Caslon', serif;
+  font-family: 'adobe-garamond-pro', serif;
   font-size: 21px;
   line-height: 1.8;
   color: rgba(0,0,0,0.8);
