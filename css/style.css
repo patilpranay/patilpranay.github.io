@@ -38,7 +38,8 @@ a {
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .introductionBox a {
@@ -50,22 +51,18 @@ a {
 }
 
 .introductionBox .profile {
-  flex-basis: 100%;
   margin-top: 30px;
-  margin-bottom: 30px;
+  height: 120px;
 }
 
 .introductionBox .name {
-  flex-basis: 100%;
   font-family: 'Cheltenham_reg', serif;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .introductionBox .description {
-  flex-basis: 100%;
   font-family: 'adobe-garamond-pro', serif;
   font-size: 18px;
   margin-top: 20px;
@@ -73,9 +70,8 @@ a {
 }
 
 .introductonBox .social {
-  flex: 1;
   height: 32px;
-  margin: 10px 10px 10px 10px;
+  margin-bottom: 10px;
 }
 
 /* Old CSS from here */
