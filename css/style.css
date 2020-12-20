@@ -42,14 +42,6 @@ a {
   text-align: center;
 }
 
-.introductionBox a {
-  text-decoration: none;
-}
-
-.introductionBox a:hover {
-  opacity: 0.7;
-}
-
 .introductionBox .profile {
   margin-top: 30px;
   height: 120px;
@@ -66,12 +58,21 @@ a {
   font-family: 'adobe-garamond-pro', serif;
   font-size: 18px;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+}
+
+.introductionBox a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.introductionBox a:hover {
+  opacity: 0.7;
 }
 
 .introductonBox .social {
   height: 32px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 /* Old CSS from here */
