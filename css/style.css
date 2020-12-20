@@ -140,44 +140,28 @@ p {
   color: black;
 }
 
-/* Old CSS from here */
-.topbar {
+.topbar { /* TODO PRANAY: FIX */
   height: 80px;
-  background-color: white;
   border-bottom: 1px solid #4A4A4A;
-  padding: 12px 0;
-  --webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
-.topbar .left {
+.topbar .profile { /* TODO PRANAY: FIX */
+  width: min(100%, 720px);
+  margin-left: calc((100% - min(100%, 720px)) / 2);
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.topbar .profile .left { /* TODO PRANAY: FIX */
   display: inline-block;
   float: left;
 }
 
-.topbar .right {
+.topbar .profile .right { /* TODO PRANAY: FIX */
   margin-top: 10px;
   display: inline-block;
   float: right;
-}
-
-.topbar .fa-flickr {
-  margin-right: 10px;
-  color: #55acee;
-}
-
-.topbar .fa-github {
-  margin-right: 10px;
-  color: #666;
-}
-
-.topbar .fa-linkedin {
-  margin-right: 10px;
-  color: #0976b4;
-}
-
-.topbar .profile {
-  display: block;
-  margin: auto;
-  width: 740px;
 }
