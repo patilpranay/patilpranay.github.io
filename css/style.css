@@ -85,6 +85,8 @@ a {
   font-family: 'Cheltenham_ital', serif;
   font-size: 36px;
   margin-bottom: 3px;
+  color: black;
+  display: block;
 }
 
 .title a:hover {
@@ -97,6 +99,7 @@ a {
   font-size: 18px;
   text-transform: none;
   color: #a19d9d;
+  display: block;
 }
 
 h3 { /* Subheader */
@@ -125,12 +128,6 @@ h6 { /* Caption */
   margin-bottom: 50px;
 }
 
-p {
-  font-family: 'adobe-garamond-pro', serif;
-  font-size: 19.8px;
-  line-height: 1.4;
-}
-
 .post img {
   display: block;
   margin-top: 50px;
@@ -138,6 +135,13 @@ p {
   margin-right: auto;
   max-width: 100%;
   height: auto;
+}
+
+p {
+  font-family: 'adobe-garamond-pro', serif;
+  font-size: 19.8px;
+  line-height: 1.4;
+  color: black;
 }
 
 /* Old CSS from here */
