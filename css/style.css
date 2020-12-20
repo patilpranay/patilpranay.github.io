@@ -63,10 +63,12 @@ a {
 }
 
 .introductionBox .social {
-  height: 32px;
 }
 
-.introductionBox .social a:hover {
+.introductionBox .social .icon {
+}
+
+.introductionBox .social .icon a:hover {
   opacity: 0.7;
 }
 
