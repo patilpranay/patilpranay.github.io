@@ -81,16 +81,28 @@ a {
   padding-right: 20px;
 }
 
+.post {
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 0 20px 30px 20px;
+  margin-bottom: 50px;
+}
+
+.post img {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .title {
   font-family: 'Cheltenham_ital', serif;
   font-size: 36px;
   margin-bottom: 3px;
   color: black;
   display: block;
-}
-
-.title a:hover {
-  text-decoration: underline;
 }
 
 .date {
@@ -119,22 +131,6 @@ h6 { /* Caption */
   padding-right: 10px;
   padding-bottom: 30px;
   border-bottom: 1px solid #a19d9d;
-}
-
-.post {
-  width: 100%;
-  border-bottom: 1px solid black;
-  padding: 0 20px 30px 20px;
-  margin-bottom: 50px;
-}
-
-.post img {
-  display: block;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  height: auto;
 }
 
 p {
