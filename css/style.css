@@ -40,6 +40,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .introductionBox .profile {
@@ -61,13 +62,12 @@ a {
   margin-bottom: 40px;
 }
 
-.introductionBox .social a:hover {
-  opacity: 0.7;
+.introductionBox .social {
+  height: 32px;
 }
 
-.introductionBox .social img {
-  height: 32px;
-  margin-bottom: 30px;
+.introductionBox .social a:hover {
+  opacity: 0.7;
 }
 
 /* Old CSS from here */
